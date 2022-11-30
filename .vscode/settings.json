@@ -1,0 +1,13 @@
+{
+  "python.formatting.provider": "black",
+  "python.analysis.typeCheckingMode": "basic",
+  "python.testing.unittestArgs": [
+    "-v",
+    "-s",
+    "./linkedlist",
+    "-p",
+    "test_*.py"
+  ],
+  "python.testing.pytestEnabled": false,
+  "python.testing.unittestEnabled": true
+}
